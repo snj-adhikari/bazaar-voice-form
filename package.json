@@ -1,0 +1,37 @@
+{
+  "name": "bazaarvoice-voice-form",
+  "version": "1.0.0",
+  "description": "This repo consists of an example of Dynamic form using Bazaar voice API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:watch": "NODE_ENV=development webpack --progress --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snj-adhikari/bazaar-voice-form.git"
+  },
+  "keywords": [
+    "Bazaar",
+    "Voice",
+    "Form",
+    "API",
+    "Dynamic",
+    "Form"
+  ],
+  "author": "sanjay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snj-adhikari/bazaar-voice-form/issues"
+  },
+  "homepage": "https://github.com/snj-adhikari/bazaar-voice-form#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
